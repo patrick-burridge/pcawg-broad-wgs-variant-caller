@@ -55,17 +55,17 @@ inputs:
     format: "http://edamontology.org/format_3989"
 
   output_disk_gb:
-    type: string
+    type: int
     doc: "Docker container argument"
   boot_disk_gb: 
-    type: string?  # This argument isn't used in cwl afaict
+    type: int?  # This argument isn't used in cwl afaict
     doc: "Docker container argument"
-    default: "10"
+    default: 10
   ram_gb:
-    type: string
+    type: int
     doc: "Docker container argument"
   cpu_cores:
-    type: string
+    type: int
     doc: "Docker container argument"
 
 

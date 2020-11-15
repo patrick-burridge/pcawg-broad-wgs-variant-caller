@@ -1,0 +1,23 @@
+bam_tumor:
+  location: https://dcc.icgc.org/api/v1/download?fn=/PCAWG/reference_data/data_for_testing/HCC1143_ds/HCC1143.bam
+  format: "http://edamontology.org/format_2572"
+  class: File
+bam_tumor_index:
+  location: https://dcc.icgc.org/api/v1/download?fn=/PCAWG/reference_data/data_for_testing/HCC1143_ds/HCC1143.bam.bai
+  format: "http://edamontology.org/format_3327"
+  class: File
+bam_normal:
+  location: https://dcc.icgc.org/api/v1/download?fn=/PCAWG/reference_data/data_for_testing/HCC1143_ds/HCC1143_BL.bam
+  class: File
+  format: "http://edamontology.org/format_2572"
+bam_normal_index:
+  location: https://dcc.icgc.org/api/v1/download?fn=/PCAWG/reference_data/data_for_testing/HCC1143_ds/HCC1143_BL.bam.bai
+  format: "http://edamontology.org/format_3327"
+  class: File
+refdata1:
+  location: https://dcc.icgc.org/api/v1/download?fn=/PCAWG/reference_data/pcawg-broad/pcawg_broad_public_refs_full.tar.gz
+  format: "http://edamontology.org/format_3989"
+  class: File
+output_disk_gb: 100
+ram_gb: 100
+cpu_cores: 32
